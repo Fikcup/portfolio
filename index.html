@@ -2,6 +2,7 @@
 <head>
     <title>Rhys Wright</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -17,14 +18,7 @@
 
     <!-- Profile Image -->
     <div id="profile-image">
-        <h1>&lt; Rhys Wright /&gt;</h1>
-
-        <p class="languages">JavaScript</p>
-        <p class="languages">Html</p>
-        <p class="languages">CSS</p>
-        <p class="languages">Java</p>
-        <p class="languages">C#</p>
-        <p class="languages">Node.js</p>
+        <h1 id="name"><span class="code">&lt;</span> Rhys Wright <span class="code">/&gt;</span></h1>
     </div>
 
     <!-- About Me -->
@@ -37,7 +31,9 @@
     <section>
         <h2 id="work" class="sub-container">My Work</h2>
 
-        <div id="work-samples">
+        <article id="work-samples">
+
+            <!-- Password Generator -->
             <div class="work-flexbox" id="flex-one">
                 <a href="https://fikcup.github.io/password-generator-js/">
                     <div class="work-text">
@@ -49,6 +45,7 @@
                 </a>
             </div>
 
+            <!-- Grocery List -->
             <div class="work-flexbox" id="flex-two">
                 <a href="https://fikcup.github.io/grocery-list/">
                     <div class="work-text">
@@ -60,6 +57,7 @@
                 </a>
             </div>
 
+            <!-- Word Guesser -->
             <div class="work-flexbox" id="flex-three">
                 <a href="https://fikcup.github.io/word-guesser/">
                     <div class="work-text">
@@ -70,32 +68,36 @@
                     <img class="small-image work-image" src="./assets/images/wordGuesser.PNG" alt="Word Guesser Project Screenshot">
                 </a>
             </div>
-        </div>
+        </article>
     </section>
 
     <!-- Contact Me -->
     <section>
         <h2 id="contact" class="sub-container">Contact Me</h2>
 
-        <div class="contact-div">
+        <!-- Email -->
+        <article class="contact-div">
             <img class="contact-img" src="" alt="">
             <p class="contact-text">Email</p>
-        </div>
+        </article>
 
-        <div class="contact-div">
+        <!-- Phone -->
+        <article class="contact-div">
             <img class="contact-img" src="" alt="">
             <p class="contact-text">Phone</p>
-        </div>
+        </article>
 
-        <div class="contact-div">
+        <!-- LinkedIn -->
+        <article class="contact-div">
             <img class="contact-img" src="" alt="">
             <p class="contact-text">LinkedIn</p>
-        </div>
+        </article>
 
-        <div class="contact-div">
+        <!-- GitHub -->
+        <article class="contact-div">
             <img class="contact-img" src="" alt="">
             <p class="contact-text">GitHub</p>
-        </div>
+        </article>
     </section>
 
     <!-- JavaScript Link -->
