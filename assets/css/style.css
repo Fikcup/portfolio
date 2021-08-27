@@ -4,7 +4,8 @@
     font-family: 'Gafata', sans-serif;
 }
 
-h2 {
+h2,
+h5 {
     text-align: center;
     font-size: 35px;
     padding-top: 4rem;
@@ -131,6 +132,7 @@ nav a:visited {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
 .work-image {
@@ -155,16 +157,81 @@ nav a:visited {
     margin: 1rem;
 }
 
+.work-flexbox,
+.work-text,
+.work-title,
+.repo-link,
+.deploy-anchor {
+    background: none;
+}
+
+.work-text a,
+.work-text a:visited {
+    background: none;
+    text-decoration: none;
+    color: #F8F7F7;
+}
+
+.work-text a:hover,
+.deploy-anchor:hover {
+    text-decoration: underline;
+    color: #6E869F;
+} 
+
 /* Project Flex Box */
 #flex-one {
     order: 1;
     flex-basis: 100%;
 }
 
-#flex-two {
+#pass-text,
+#grocery-text,
+#word-text {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0 auto;
+    background-color: #B5B8D2;
+}
+
+#grocery-text,
+#word-text {
+    width: 480px;
+}
+
+#pass-text {
+    width: 1000px;
     order: 2;
+    flex-basis: 100%;
+}
+
+#grocery-text {
+    order: 5;
+}
+
+#word-text {
+    order: 6;
+}
+
+#flex-two {
+    order: 3;
 }
 
 #flex-three {
-    order: 3;
+    order: 4;
+}
+
+/* Contact Me Selectors */
+footer {
+    margin: 0 auto;
+}
+
+#contact-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-div {
+    padding-left: 30px;
+    padding-right: 30px;
 }
