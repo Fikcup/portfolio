@@ -12,8 +12,11 @@ h2 {
     background: none;
 }
 
+html,
 body {
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
 }
 
 main {
@@ -70,10 +73,10 @@ nav a:visited {
 
 #background-img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
     opacity: 0.4;
-    -webkit-transform: translateY(-10%);
-    transform: translateY(-10%);
 }
 
 #profile-photo {
@@ -114,11 +117,11 @@ nav a:visited {
 
 /* Project Selectors */
 #work-section {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    background-color: #6E869F;
-    position: relative;
+    max-width: 100%;
+    overflow: hidden;
     margin: 0 auto;
+    background-color: #6E869F;
+    padding-bottom: 2rem;
 }
 
 #work-samples {
@@ -131,8 +134,9 @@ nav a:visited {
 }
 
 .work-image {
+    background: none;
     z-index: 1;
-    border: black 3px solid;
+    border: #B8BEC3 3px solid;
 }
 
 .work-image:hover {
