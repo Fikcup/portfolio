@@ -235,3 +235,13 @@ footer {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.contact-icon,
+.contact-icon:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-icon:hover {
+    color: #6E869F;
+}
