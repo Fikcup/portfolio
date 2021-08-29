@@ -1,31 +1,44 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">Portfolio</h3>
 
-# Portfolio
+  <p align="center">
+    Portfolio developed using HTML and CSS. The overall goal of the project is to create a functional portfolio that displays some of my completed projects.
+    <br />
+  </p>
+</p>
 
-<p>A portfolio displaying my work developed using HTML, CSS, and JavaScript.</p>
 
-## Goals
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-<p>The overarching goal of this project is to develop a portfolio that aesthetically and clearly displays my work.</p>
+![Portfolio Screenshot](https://media.discordapp.net/attachments/800222833951113268/881397654368690197/unknown.png?width=960&height=471)
+Project Link: [Portfolio](https://fikcup.github.io/portfolio/)
 
-### Basic
 
-<ul>
-    <li>Have a navigation section that links to all subsections</li>
-    <li>Display name and image of self</li>
-    <li>Add a resume tab that links to a pdf upload</li>
-</ul>
+### Built With
 
-### Moderate
+* [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-<ul>
-    <li>Apply advanced CSS to improve the interactivity of the website</li>
-    <li>Add a contact me form that directly goes to my email</li>
-    <li>Apply a color palette to the web page</li>
-</ul>
 
-### Advanced
 
-<ul>
-    <li>Create a project component using React.js</li>
-    <li>Add regex to the contact me form to verify email validity</li>
-</ul>
+<!-- GETTING STARTED -->
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Fikcup/portfolio.git
+   ```
+2. Run the HTML file
+
+
+<!-- CONTACT -->
+## Contact
+
+Rhys Wright - [@fikrysoft](https://twitter.com/fikrysoft) - rhys.n.wright@gmail.com
