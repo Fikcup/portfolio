@@ -252,15 +252,74 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    /* Nav Bar Selectors */
+    nav {
+        max-width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        border-top: 1px solid #F8F7F7;
+        border-bottom: 1px solid #F8F7F7;
+    }
+
+    /* Profile Image Selectors */
+    #profile-image {
+        max-height: 1100px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #profile-photo,
+    #name {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        position: relative;
+        max-width: 600px;
+    }
+
+    #name {
+        font-size: 2rem;
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: left;
+    }
     
+
+    /* Project Selectors */
+    .large-image,
+    .small-image {
+        width: 600px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    
-}
+@media only screen and (max-width: 1000px) {
+    /* Profile Image Selectors */
+    #profile-image {
+        max-height: 1800px;
+        justify-content: center;
+    }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    
+    #profile-photo,
+    #name {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        position: relative;
+        max-width: 600px;
+    }
+
+    #name {
+        font-size: 2rem;
+        margin: 0 auto;
+        padding: 0 auto;
+        text-align: left;
+    }
+
+    /* Project Selectors */
+    .large-image,
+    .small-image {
+        width: 100%;
+    }
 }
