@@ -260,6 +260,7 @@ footer {
     }
 
     nav a {
+        font-size: 1.25rem;
         border-top: 1px solid #F8F7F7;
         border-bottom: 1px solid #F8F7F7;
     }
@@ -273,6 +274,8 @@ footer {
 
     #profile-photo,
     #name {
+        top: 0%;
+        left: 0%;
         padding-top: 2rem;
         padding-bottom: 2rem;
         position: relative;
@@ -283,7 +286,7 @@ footer {
         font-size: 2rem;
         margin: 0 auto;
         padding: 0 auto;
-        text-align: left;
+        text-align: center;
     }
     
 
@@ -291,6 +294,12 @@ footer {
     .large-image,
     .small-image {
         width: 600px;
+    }
+
+    /* Contact Me Selectors */
+    .contact-div {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -304,6 +313,8 @@ footer {
 
     #profile-photo,
     #name {
+        top: 0%;
+        left: 0%;
         padding-top: 2rem;
         padding-bottom: 2rem;
         position: relative;
@@ -314,7 +325,7 @@ footer {
         font-size: 2rem;
         margin: 0 auto;
         padding: 0 auto;
-        text-align: left;
+        text-align: center;
     }
 
     /* Project Selectors */
