@@ -260,9 +260,22 @@ footer {
     }
 
     nav a {
-        font-size: 1.25rem;
+        font-size: 1rem;
         border-top: 1px solid #F8F7F7;
         border-bottom: 1px solid #F8F7F7;
+    }
+
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #email,
+    #phone,
+    #linkedin,
+    #github {
+        flex-basis: 100%;
     }
 
     /* Profile Image Selectors */
@@ -291,9 +304,16 @@ footer {
     
 
     /* Project Selectors */
-    .large-image,
     .small-image {
-        width: 600px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .large-image {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
     }
 
     /* Contact Me Selectors */
